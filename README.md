@@ -2,7 +2,9 @@
 
 Human rescue for AI browser agents. When your agent gets stuck — CAPTCHA, login, 2FA, unexpected modal — one function call gets a human to solve it.
 
-**[See how it works (interactive demo)](https://rozetyp.github.io/pilot/demo.html)**
+![Agent hits CAPTCHA → Pilot rescue → human solves → agent continues](demo-screenshot.png)
+
+**[Interactive demo](https://rozetyp.github.io/pilot/demo.html)** — see the full flow animated
 
 ```python
 # Browser Use
