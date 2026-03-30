@@ -1,0 +1,38 @@
+{
+  "name": "pilot-rescue",
+  "version": "0.6.0",
+  "description": "Human rescue for AI browser agents. When your agent gets stuck, one function call gets a human to solve it.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js",
+    "demo": "node demo.js"
+  },
+  "keywords": [
+    "ai-agent",
+    "browser-automation",
+    "human-in-the-loop",
+    "captcha",
+    "puppeteer",
+    "playwright",
+    "browser-use",
+    "cdp",
+    "rescue",
+    "mcp"
+  ],
+  "author": "Anton Zaytsev",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/antonzaytsev/pilot"
+  },
+  "homepage": "https://github.com/antonzaytsev/pilot#readme",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "puppeteer": "^24.35.0"
+  }
+}

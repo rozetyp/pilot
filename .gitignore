@@ -1,0 +1,14 @@
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# Internal docs — not for public repo
+INTERNALS.md
+
+# Test artifacts
+/tmp/pilot_*.jpg
+
+# Environment
+.env
+.env.*
